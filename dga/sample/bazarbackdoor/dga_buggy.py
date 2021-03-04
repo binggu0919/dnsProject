@@ -2,7 +2,6 @@ import argparse
 from datetime import datetime
 from itertools import product
 
-
 def dga(date):
     month = date.month
     year = date.year
