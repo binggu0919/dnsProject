@@ -10,3 +10,6 @@
 * 1. DNSTunneling Analysis 
 
 ### Machine Learning or Deep Learning (LSTM or etc...)
+
+git config --global user.email "jeonghun.sim0919@gmail.com"
+git config --global user.name "binggu0919"
