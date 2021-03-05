@@ -7,3 +7,4 @@ b_dga = banjoriDGA("naver.com")
 b_dga.domain_generate(10)
 
 
+
