@@ -1,0 +1,48 @@
+###[ Ethernet ]###
+  dst       = 60:29:d5:11:f2:c1
+  src       = 8c:55:4a:9d:3c:f3
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 62
+     id        = 57726
+     flags     =
+     frag      = 0
+     ttl       = 128
+     proto     = udp
+     chksum    = 0x0
+     src       = 172.30.1.12   
+     dst       = 168.126.63.1  
+     \options   \
+###[ UDP ]###
+        sport     = 49652      
+        dport     = domain     
+        len       = 42
+        chksum    = 0x94e5     
+###[ DNS ]###
+           id        = 24838      ## Transaction ID
+           qr        = 0          ## 0 Query   1 Response
+           opcode    = QUERY      ## 0 (표준 질의 또는 응답) ,1 역 질의, 2 서버의 상태 요구, 4 통지, 5 갱신
+                                      0 QUERY, 1 Inverse Query, 2 Status, 3 Unaassigned, 4 Notify, 5 Update, 6~15 Unaassigned
+           aa        = 0          ## 응답메시지에만 사용됨 : 네임서버 권한이 인정된 서버의 응답을 표시
+           tc        = 0          ## 512Byte 초과 여부(초과일 경우 TCP 포트를 통해 질의)
+           rd        = 1          ## 재귀 요구 플래그 (1, 클라이어트가 재귀 질의를 원함. 질의 메시지에서 지정되며, 응답 메시지에서 이를 반복)
+           ra        = 0          ## 재귀 유효 플래그 (네임서버가 재귀 질의가 이용 가능한지를 나타냄)
+           z         = 0          ## 예약 필드로 항상 0
+           ad        = 0          
+           cd        = 0
+           rcode     = ok         ## 0 No Error, 1 Format Errot, 2 Server Fail, 3 NX Domain, 4 NotImp, 5 Refused
+           qdcount   = 1          ## 질의의 수
+           ancount   = 0          ## 응답의 수
+           nscount   = 0          ## Authority Section의 개수
+           arcount   = 0          ## Additional Section의 개수
+           \qd        \
+            |###[ DNS Question Record ]###
+            |  qname     = 'search.naver.com.' ## 가변적으로 호스트 네임
+            |  qtype     = A  ## A, NS, MX, HINFO, PTR 등 많음
+            |  qclass    = IN ## IN : Internet Class, CS : Csent Class, Chaos Class, HeSiod Class
+           an        = None
+           ns        = None
+           ar        = None

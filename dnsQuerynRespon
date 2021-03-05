@@ -1,0 +1,694 @@
+
+
+None
+End Pakcet !!!!!!!!!!!
+
+
+None
+End Pakcet !!!!!!!!!!!
+###[ Ethernet ]### 
+  dst       = 60:29:d5:11:f2:c1
+  src       = 8c:55:4a:9d:3c:f3
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 60
+     id        = 57727
+     flags     =
+     frag      = 0
+     ttl       = 128
+     proto     = udp
+     chksum    = 0x0
+     src       = 172.30.1.12
+     dst       = 168.126.63.1
+     \options   \
+###[ UDP ]###
+        sport     = 51590
+        dport     = domain
+        len       = 40
+        chksum    = 0x94e3
+###[ DNS ]###
+           id        = 12654
+           qr        = 0
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 0
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]###
+            |  qname     = 'pm.pstatic.net.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+
+None
+End Pakcet !!!!!!!!!!!
+###[ Ethernet ]###
+  dst       = 8c:55:4a:9d:3c:f3
+  src       = 60:29:d5:11:f2:c1
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 264
+     id        = 64063
+     flags     =
+     frag      = 0
+     ttl       = 58
+     proto     = udp
+     chksum    = 0xf0fb
+     src       = 168.126.63.1
+     dst       = 172.30.1.12
+     \options   \
+###[ UDP ]###
+        sport     = domain
+        dport     = 51590
+        len       = 244
+        chksum    = 0x4821
+###[ DNS ]###
+           id        = 12654
+           qr        = 1
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 1
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 5
+           nscount   = 2
+           arcount   = 2
+           \qd        \
+            |###[ DNS Question Record ]###
+            |  qname     = 'pm.pstatic.net.'
+            |  qtype     = A
+            |  qclass    = IN
+           \an        \
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'pm.pstatic.net.'
+            |  type      = CNAME
+            |  rclass    = IN
+            |  ttl       = 4270
+            |  rdlen     = None
+            |  rdata     = 'pm.pstatic.net.nheos.com.'
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'pm.pstatic.net.nheos.com.'
+            |  type      = CNAME
+            |  rclass    = IN
+            |  ttl       = 4295
+            |  rdlen     = None
+            |  rdata     = 'pm.pstatic.net.static.gscdn.net.'
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'pm.pstatic.net.static.gscdn.net.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 22
+            |  rdlen     = None
+            |  rdata     = 183.111.26.117
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'pm.pstatic.net.static.gscdn.net.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 22
+            |  rdlen     = None
+            |  rdata     = 211.216.46.15
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'pm.pstatic.net.static.gscdn.net.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 22
+            |  rdlen     = None
+            |  rdata     = 101.79.137.169
+           \ns        \
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'static.gscdn.net.'
+            |  type      = NS
+            |  rclass    = IN
+            |  ttl       = 159
+            |  rdlen     = None
+            |  rdata     = 'gds9.gscdn.com.'
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'static.gscdn.net.'
+            |  type      = NS
+            |  rclass    = IN
+            |  ttl       = 159
+            |  rdlen     = None
+            |  rdata     = 'gds8.gscdn.com.'
+           \ar        \
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'gds8.gscdn.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 74
+            |  rdlen     = None
+            |  rdata     = 119.205.216.190
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'gds9.gscdn.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 81
+            |  rdlen     = None
+            |  rdata     = 211.110.183.126
+
+None
+End Pakcet !!!!!!!!!!!
+###[ Ethernet ]###
+  dst       = 60:29:d5:11:f2:c1
+  src       = 8c:55:4a:9d:3c:f3
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 70
+     id        = 57728
+     flags     =
+     frag      = 0
+     ttl       = 128
+     proto     = udp
+     chksum    = 0x0
+     src       = 172.30.1.12
+     dst       = 168.126.63.1
+     \options   \
+###[ UDP ]###
+        sport     = 57861
+        dport     = domain
+        len       = 50
+        chksum    = 0x94ed
+###[ DNS ]###
+           id        = 46935
+           qr        = 0
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 0
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]###
+            |  qname     = 'static-whale.pstatic.net.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+
+None
+End Pakcet !!!!!!!!!!!
+###[ Ethernet ]### 
+  dst       = 60:29:d5:11:f2:c1
+  src       = 8c:55:4a:9d:3c:f3
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 70
+     id        = 4569
+     flags     =
+     frag      = 0
+     ttl       = 128
+     proto     = udp
+     chksum    = 0x0
+     src       = 172.30.1.12
+     dst       = 168.126.63.2
+     \options   \
+###[ UDP ]###
+        sport     = 57861
+        dport     = domain
+        len       = 50
+        chksum    = 0x94ee
+###[ DNS ]###
+           id        = 46935
+           qr        = 0
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 0
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]###
+            |  qname     = 'static-whale.pstatic.net.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+
+None
+End Pakcet !!!!!!!!!!!
+###[ Ethernet ]### 
+  dst       = 8c:55:4a:9d:3c:f3
+  src       = 60:29:d5:11:f2:c1
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 249
+     id        = 17282
+     flags     = DF
+     frag      = 0
+     ttl       = 249
+     proto     = udp
+     chksum    = 0xa8c6
+     src       = 168.126.63.2
+     dst       = 172.30.1.12
+     \options   \
+###[ UDP ]###
+        sport     = domain
+        dport     = 57861
+        len       = 229
+        chksum    = 0x7a0c
+###[ DNS ]###
+           id        = 46935
+           qr        = 1
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 1
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 4
+           nscount   = 2
+           arcount   = 2
+           \qd        \
+            |###[ DNS Question Record ]###
+            |  qname     = 'static-whale.pstatic.net.'
+            |  qtype     = A
+            |  qclass    = IN
+           \an        \
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'static-whale.pstatic.net.'
+            |  type      = CNAME
+            |  rclass    = IN
+            |  ttl       = 4285
+            |  rdlen     = None
+            |  rdata     = 'static-whale.pstatic.net.static.gscdn.net.'
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'static-whale.pstatic.net.static.gscdn.net.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 70
+            |  rdlen     = None
+            |  rdata     = 211.216.46.24
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'static-whale.pstatic.net.static.gscdn.net.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 70
+            |  rdlen     = None
+            |  rdata     = 183.111.26.25
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'static-whale.pstatic.net.static.gscdn.net.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 70
+            |  rdlen     = None
+            |  rdata     = 101.79.137.173
+           \ns        \
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'static.gscdn.net.'
+            |  type      = NS
+            |  rclass    = IN
+            |  ttl       = 246
+            |  rdlen     = None
+            |  rdata     = 'gds9.gscdn.com.'
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'static.gscdn.net.'
+            |  type      = NS
+            |  rclass    = IN
+            |  ttl       = 246
+            |  rdlen     = None
+            |  rdata     = 'gds8.gscdn.com.'
+           \ar        \
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'gds8.gscdn.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 271
+            |  rdlen     = None
+            |  rdata     = 119.205.216.190
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'gds9.gscdn.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 101
+            |  rdlen     = None
+            |  rdata     = 211.110.183.126
+
+None
+End Pakcet !!!!!!!!!!!
+###[ Ethernet ]###
+  dst       = 8c:55:4a:9d:3c:f3
+  src       = 60:29:d5:11:f2:c1
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 249
+     id        = 38344
+     flags     =
+     frag      = 0
+     ttl       = 58
+     proto     = udp
+     chksum    = 0x5582
+     src       = 168.126.63.1
+     dst       = 172.30.1.12
+     \options   \
+###[ UDP ]###
+        sport     = domain
+        dport     = 57861
+        len       = 229
+        chksum    = 0x4f88
+###[ DNS ]###
+           id        = 46935
+           qr        = 1
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 1
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 4
+           nscount   = 2
+           arcount   = 2
+           \qd        \
+            |###[ DNS Question Record ]###
+            |  qname     = 'static-whale.pstatic.net.'
+            |  qtype     = A
+            |  qclass    = IN
+           \an        \
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'static-whale.pstatic.net.'
+            |  type      = CNAME
+            |  rclass    = IN
+            |  ttl       = 4277
+            |  rdlen     = None
+            |  rdata     = 'static-whale.pstatic.net.static.gscdn.net.'
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'static-whale.pstatic.net.static.gscdn.net.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 140
+            |  rdlen     = None
+            |  rdata     = 183.111.26.27
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'static-whale.pstatic.net.static.gscdn.net.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 140
+            |  rdlen     = None
+            |  rdata     = 211.216.46.24
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'static-whale.pstatic.net.static.gscdn.net.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 140
+            |  rdlen     = None
+            |  rdata     = 101.79.137.173
+           \ns        \
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'static.gscdn.net.'
+            |  type      = NS
+            |  rclass    = IN
+            |  ttl       = 211
+            |  rdlen     = None
+            |  rdata     = 'gds8.gscdn.com.'
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'static.gscdn.net.'
+            |  type      = NS
+            |  rclass    = IN
+            |  ttl       = 211
+            |  rdlen     = None
+            |  rdata     = 'gds9.gscdn.com.'
+           \ar        \
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'gds8.gscdn.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 77
+            |  rdlen     = None
+            |  rdata     = 119.205.216.190
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'gds9.gscdn.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 81
+            |  rdlen     = None
+            |  rdata     = 211.110.183.126
+
+None
+End Pakcet !!!!!!!!!!!
+###[ Ethernet ]###
+  dst       = 60:29:d5:11:f2:c1
+  src       = 8c:55:4a:9d:3c:f3
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 59
+     id        = 57729
+     flags     =
+     frag      = 0
+     ttl       = 128
+     proto     = udp
+     chksum    = 0x0
+     src       = 172.30.1.12
+     dst       = 168.126.63.1
+     \options   \
+###[ UDP ]###
+        sport     = 50307
+        dport     = domain
+        len       = 39
+        chksum    = 0x94e2
+###[ DNS ]###
+           id        = 13679
+           qr        = 0
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 0
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]###
+            |  qname     = 's.pstatic.net.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+
+None
+End Pakcet !!!!!!!!!!!
+###[ Ethernet ]### 
+  dst       = 8c:55:4a:9d:3c:f3
+  src       = 60:29:d5:11:f2:c1
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 357
+     id        = 64148
+     flags     =
+     frag      = 0
+     ttl       = 58
+     proto     = udp
+     chksum    = 0xf049
+     src       = 168.126.63.1
+     dst       = 172.30.1.12
+     \options   \
+###[ UDP ]###
+        sport     = domain
+        dport     = 50307
+        len       = 337
+        chksum    = 0x20d4
+###[ DNS ]###
+           id        = 13679
+           qr        = 1
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 1
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 10
+           nscount   = 3
+           arcount   = 3
+           \qd        \
+            |###[ DNS Question Record ]###
+            |  qname     = 's.pstatic.net.'
+            |  qtype     = A
+            |  qclass    = IN
+           \an        \
+            |###[ DNS Resource Record ]###
+            |  rrname    = 's.pstatic.net.'
+            |  type      = CNAME
+            |  rclass    = IN
+            |  ttl       = 4269
+            |  rdlen     = None
+            |  rdata     = 's.pstatic.net.nheos.com.'
+            |###[ DNS Resource Record ]###
+            |  rrname    = 's.pstatic.net.nheos.com.'
+            |  type      = CNAME
+            |  rclass    = IN
+            |  ttl       = 93
+            |  rdlen     = None
+            |  rdata     = 's1.e.navercdn.com.'
+            |###[ DNS Resource Record ]###
+            |  rrname    = 's1.e.navercdn.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 40
+            |  rdlen     = None
+            |  rdata     = 125.209.254.138
+            |###[ DNS Resource Record ]###
+            |  rrname    = 's1.e.navercdn.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 40
+            |  rdlen     = None
+            |  rdata     = 125.209.254.132
+            |###[ DNS Resource Record ]###
+            |  rrname    = 's1.e.navercdn.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 40
+            |  rdlen     = None
+            |  rdata     = 125.209.254.131
+            |###[ DNS Resource Record ]###
+            |  rrname    = 's1.e.navercdn.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 40
+            |  rdlen     = None
+            |  rdata     = 125.209.254.136
+            |###[ DNS Resource Record ]###
+            |  rrname    = 's1.e.navercdn.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 40
+            |  rdlen     = None
+            |  rdata     = 125.209.254.135
+            |###[ DNS Resource Record ]###
+            |  rrname    = 's1.e.navercdn.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 40
+            |  rdlen     = None
+            |  rdata     = 125.209.254.134
+            |###[ DNS Resource Record ]###
+            |  rrname    = 's1.e.navercdn.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 40
+            |  rdlen     = None
+            |  rdata     = 125.209.254.137
+            |###[ DNS Resource Record ]###
+            |  rrname    = 's1.e.navercdn.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 40
+            |  rdlen     = None
+            |  rdata     = 125.209.254.133
+           \ns        \
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'e.navercdn.com.'
+            |  type      = NS
+            |  rclass    = IN
+            |  ttl       = 455
+            |  rdlen     = None
+            |  rdata     = 'gns1.e.navercdn.com.'
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'e.navercdn.com.'
+            |  type      = NS
+            |  rclass    = IN
+            |  ttl       = 455
+            |  rdlen     = None
+            |  rdata     = 'gns3.e.navercdn.com.'
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'e.navercdn.com.'
+            |  type      = NS
+            |  rclass    = IN
+            |  ttl       = 455
+            |  rdlen     = None
+            |  rdata     = 'gns2.e.navercdn.com.'
+           \ar        \
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'gns1.e.navercdn.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 53
+            |  rdlen     = None
+            |  rdata     = 103.6.174.86
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'gns2.e.navercdn.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 39
+            |  rdlen     = None
+            |  rdata     = 210.89.165.22
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'gns3.e.navercdn.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 53
+            |  rdlen     = None
+            |  rdata     = 125.209.246.230
+
+None

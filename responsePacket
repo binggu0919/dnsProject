@@ -1,0 +1,110 @@
+###[ Ethernet ]### 
+  dst       = 8c:55:4a:9d:3c:f3
+  src       = 60:29:d5:11:f2:c1
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 236
+     id        = 63999
+     flags     =
+     frag      = 0
+     ttl       = 58
+     proto     = udp
+     chksum    = 0xf157
+     src       = 168.126.63.1
+     dst       = 172.30.1.12
+     \options   \
+###[ UDP ]###
+        sport     = domain
+        dport     = 49652
+        len       = 216
+        chksum    = 0x3e9b
+###[ DNS ]###
+           id        = 24838
+           qr        = 1
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 1
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 3
+           nscount   = 3
+           arcount   = 3
+           \qd        \
+            |###[ DNS Question Record ]###
+            |  qname     = 'search.naver.com.'
+            |  qtype     = A
+            |  qclass    = IN
+           \an        \
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'search.naver.com.'
+            |  type      = CNAME
+            |  rclass    = IN
+            |  ttl       = 4270
+            |  rdlen     = None
+            |  rdata     = 'search.naver.com.nheos.com.'
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'search.naver.com.nheos.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 111
+            |  rdlen     = None
+            |  rdata     = 125.209.230.167
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'search.naver.com.nheos.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 111
+            |  rdlen     = None
+            |  rdata     = 210.89.172.84
+           \ns        \
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'nheos.com.'
+            |  type      = NS
+            |  rclass    = IN
+            |  ttl       = 522
+            |  rdlen     = None
+            |  rdata     = 'gns3.nheos.com.'
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'nheos.com.'
+            |  type      = NS
+            |  rclass    = IN
+            |  ttl       = 522
+            |  rdlen     = None
+            |  rdata     = 'gns2.nheos.com.'
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'nheos.com.'
+            |  type      = NS
+            |  rclass    = IN
+            |  ttl       = 522
+            |  rdlen     = None
+            |  rdata     = 'gns1.nheos.com.'
+           \ar        \
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'gns1.nheos.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 8015
+            |  rdlen     = None
+            |  rdata     = 103.6.174.86
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'gns2.nheos.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 4556
+            |  rdlen     = None
+            |  rdata     = 210.89.165.22
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'gns3.nheos.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 4590
+            |  rdlen     = None
+            |  rdata     = 125.209.246.230
