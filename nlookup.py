@@ -14,7 +14,8 @@ df_whitelist_domain.set_index('no', inplace=True)
 df_whitelist_domain.reset_index(drop=True, inplace=True)
 # df_whitelist_domain.set_index('no',append=True)
 
-for i in range(df_whitelist_domain['domain'].size) :
+# for i in range(df_whitelist_domain['domain'].size) :
+for i in range(1000) :
     time.sleep(0.1)
     dns_query.dns_lookup(df_whitelist_domain['domain'][i])
     print(i)
